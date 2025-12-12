@@ -10,6 +10,14 @@
         }
     </script>
 </head>
+<script>
+    const menu = document.getElementById("menu");
+    const menu_deroulant = document.getElementById("menu_deroulant");
+
+    menu.addEventListener("click", () => {
+      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+    });
+</script>
 <body>
     <header>
         <h1>Conditions d'admission</h1>
@@ -58,4 +66,5 @@
     </main>
 </body>
 </html>
+
 
