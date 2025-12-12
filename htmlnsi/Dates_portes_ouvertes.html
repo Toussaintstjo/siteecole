@@ -5,14 +5,6 @@
     <title>Portes ouvertes - Polytech Nantes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<script>
-    const menu = document.getElementById("menu");
-    const menu_deroulant = document.getElementById("menu_deroulant");
-
-    menu.addEventListener("click", () => {
-      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
-    });
-</script>
 <body>
     <header>
         <h1>Nantes (Campus Chantrerie)</h1>
@@ -78,7 +70,16 @@
         </section>
     </main>
 </body>
+<script>
+    const menu = document.getElementById("menu");
+    const menu_deroulant = document.getElementById("menu_deroulant");
+
+    menu.addEventListener("click", () => {
+      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+    });
+</script>
 </html>
+
 
 
 
