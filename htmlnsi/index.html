@@ -24,6 +24,12 @@
             </ul>
         </nav>
     </header>
+    const menu = document.getElementById("menu");
+    const menu_deroulant = document.getElementById("menu_deroulant");
+
+    menu.addEventListener("click", () => {
+      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+    });
 
     <main>
         <section>
@@ -43,4 +49,5 @@
     </main>
 </body>
 </html>
+
 
