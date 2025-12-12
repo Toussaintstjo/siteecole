@@ -17,6 +17,7 @@ header h1 {
     margin: 0;
     font-size: 2em;
     color: #fff;
+    text-align: center;
 }
 
 header h2 {
@@ -162,6 +163,7 @@ footer {
     }
 
 }
+
 
 
 
