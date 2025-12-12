@@ -4,17 +4,6 @@
     <meta charset="UTF-8">
     <title>Conditions d'admission - Polytech Nantes</title>
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        function validerForm() {
-            alert("Merci pour votre demande d'information !");
-        }
-    const menu = document.getElementById("menu");
-    const menu_deroulant = document.getElementById("menu_deroulant");
-
-    menu.addEventListener("click", () => {
-      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
-    });
-    </script>
 </head>
 <body>
     <header>
@@ -63,7 +52,16 @@
         </section>
     </main>
 </body>
+<script>
+    const menu = document.getElementById("menu");
+    const menu_deroulant = document.getElementById("menu_deroulant");
+
+    menu.addEventListener("click", () => {
+      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+    });
+</script>
 </html>
+
 
 
 
