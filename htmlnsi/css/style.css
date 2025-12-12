@@ -137,16 +137,17 @@ footer {
         font-size: 15px;
     }
 
-    menu span {
+    .menu span {
         display: block;
         height: 4px;
         background: black;
         margin: 5px 0;
     }
 
-    menu_deroulant {
+    .menu_deroulant {
         display: none;
     }
 }
+
 
 
