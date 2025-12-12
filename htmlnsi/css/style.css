@@ -26,6 +26,16 @@ header h2 {
     color: #f5f5f5;
 }
 
+.menu span {
+        display: block;
+        height: 4px;
+        background: black;
+        margin: 5px 0;
+}
+
+.menu_deroulant {
+        display: none;
+}
 
 nav ul {
     list-style: none;
@@ -137,17 +147,8 @@ footer {
         font-size: 15px;
     }
 
-    .menu span {
-        display: block;
-        height: 4px;
-        background: black;
-        margin: 5px 0;
-    }
-
-    .menu_deroulant {
-        display: none;
-    }
 }
+
 
 
 
