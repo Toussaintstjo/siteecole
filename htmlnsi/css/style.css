@@ -1,6 +1,4 @@
-/* ====================
-   Styles globaux
-==================== */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,9 +7,7 @@ body {
     color: #111;
 }
 
-/* ====================
-   Header
-==================== */
+
 header {
     background-color: rgba(2, 181, 252, 0.85);
     padding: 20px 10px;
@@ -30,9 +26,7 @@ header h2 {
     color: #f5f5f5;
 }
 
-/* ====================
-   Menu de navigation
-==================== */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -57,9 +51,7 @@ nav ul li a:hover {
     color: #000;
 }
 
-/* ====================
-   Sections et contenu
-==================== */
+
 section {
     margin: 20px auto;
     padding: 20px;
@@ -112,9 +104,7 @@ img {
     border-radius: 8px;
 }
 
-/* ====================
-   Footer
-==================== */
+
 footer {
     background-color: #02b5fcbb;
     text-align: center;
@@ -123,9 +113,7 @@ footer {
     font-weight: bold;
 }
 
-/* ====================
-   Responsivité
-==================== */
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.5em;
@@ -149,3 +137,4 @@ footer {
         font-size: 15px;
     }
 }
+
