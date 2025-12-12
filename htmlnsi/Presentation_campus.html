@@ -6,14 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href=" (images/ico.png">
 </head>
-<script>
-    const menu = document.getElementById("menu");
-    const menu_deroulant = document.getElementById("menu_deroulant");
-
-    menu.addEventListener("click", () => {
-      menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
-    });
-</script>
 <body>
     <header>
         <h1>Présentation du campus</h1>
@@ -47,6 +39,15 @@
         <p>Le campus favorise l’innovation et l’interaction entre étudiants et enseignants. Des projets collaboratifs et concours sont organisés régulièrement.</p>
     </main>
 </body>
+<script>
+    const menu = document.getElementById("menu");
+    const menu_deroulant = document.getElementById("menu_deroulant");
+
+    menu.addEventListener("click", () => {
+        menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+    });
+</script>
 </html>
+
 
 
