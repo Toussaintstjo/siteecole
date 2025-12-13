@@ -1,13 +1,19 @@
-
-.background {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #63e 100%);
-  z-index: -100;
+html, body {
+    height: 100%;        
+    margin: 0;
+    padding: 0;
 }
+/*pris sur:https://uiverse.io/muhammad_1180/ordinary-fish-9 */
+.background {
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #63e 100%);
+    z-index: -100;       /* derrière tout le contenu */
+}
+
 
 
 header {
@@ -172,6 +178,7 @@ footer {
     }
 
 }
+
 
 
 
