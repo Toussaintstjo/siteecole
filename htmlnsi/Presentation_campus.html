@@ -2,24 +2,24 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation du campus - Polytech Nantes</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href=" (images/ico.png">
-    <div class="background"></div>
+    <link rel="icon" type="image/png" href="images/ico.png">
 </head>
 <body>
+    <div class="background"></div>
+
     <header>
         <h1>Présentation du campus</h1>
-    </header>
-    <header>
-         <nav>
+        <nav>
             <div class="menu" id="menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <ul class="menu_deroulant" id="menu_deroulant">
-                <li><a href="index.html">Accueuil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="Conditions_d_admission.html">Conditions d'admission</a></li>
                 <li><a href="Organisation.html">Organisation</a></li>
                 <li><a href="Dates_portes_ouvertes.html">Dates portes ouvertes</a></li>
@@ -28,28 +28,48 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <p>Polytech Nantes est un campus moderne et dynamique situé au cœur de Nantes, avec :</p>
-        <ul>
-            <li>Des laboratoires de pointe pour chaque département</li>
-            <li>Une bibliothèque et des salles multimédia</li>
-            <li>Des associations étudiantes et clubs sportifs</li>
-            <li>Un environnement verdoyant et agréable pour étudier</li>
-        </ul>
-        <img src="campus_polytech.jpg" alt="Campus Polytech Nantes" width="600">
-        <p>Le campus favorise l’innovation et l’interaction entre étudiants et enseignants. Des projets collaboratifs et concours sont organisés régulièrement.</p>
+        <section>
+            <p>Polytech Nantes est un campus moderne et dynamique situé au cœur de Nantes, avec :</p>
+            <ul>
+                <li>Des laboratoires de pointe pour chaque département</li>
+                <li>Une bibliothèque et des salles multimédia</li>
+                <li>Des associations étudiantes et clubs sportifs</li>
+                <li>Un environnement verdoyant et agréable pour étudier</li>
+            </ul>
+            <img src="campus_polytech.jpg" alt="Campus Polytech Nantes" width="600">
+            <p>Le campus favorise l’innovation et l’interaction entre étudiants et enseignants. Des projets collaboratifs et concours sont organisés régulièrement.</p>
+        </section>
+
+        <section>
+            <h2>Vie étudiante et infrastructures</h2>
+            <ul>
+                <li>Résidences étudiantes à proximité</li>
+                <li>Restaurants universitaires et cafétérias</li>
+                <li>Espaces de coworking et salles de projets collaboratifs</li>
+                <li>Équipements sportifs : gymnase, terrains et clubs étudiants</li>
+                <li>Accès facile aux transports en commun</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Innovation et recherche</h2>
+            <p>Le campus héberge plusieurs laboratoires de recherche appliquée et fondamentale dans tous les domaines d’ingénierie. Les étudiants participent à des projets collaboratifs, concours et événements scientifiques locaux et internationaux.</p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Polytech Nantes - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        const menu = document.getElementById("menu");
+        const menu_deroulant = document.getElementById("menu_deroulant");
+
+        menu.addEventListener("click", () => {
+            menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
+        });
+    </script>
 </body>
-<script>
-    const menu = document.getElementById("menu");
-    const menu_deroulant = document.getElementById("menu_deroulant");
-
-    menu.addEventListener("click", () => {
-        menu_deroulant.style.display = menu_deroulant.style.display === "block" ? "none" : "block";
-    });
-</script>
 </html>
-
-
-
-
