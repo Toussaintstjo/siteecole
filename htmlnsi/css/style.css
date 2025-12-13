@@ -1,9 +1,14 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fbfbfc;
+
+    background-image: url("../images/fond_polytech.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     color: #111;
 }
 
@@ -170,6 +175,7 @@ footer {
     }
 
 }
+
 
 
 
