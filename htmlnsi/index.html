@@ -1,96 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="icon" type="image/png" href="images/ico.png" />
     <meta charset="UTF-8">
     <title>Accueil - Polytech Nantes</title>
+    <link rel="icon" type="image/png" href="images/ico.png" />
     <link rel="stylesheet" href="css/style.css">
-    <!-- From Uiverse.io by muhammad_1180 --> 
+</head>
+
+<body>
+
 <div class="background"></div>
 
-</head>
-<body>
-    <header>
-        <h1>Bienvenue sur le site de Polytech Nantes</h1>
-        <nav>
-            <div class="menu" id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="menu_deroulant" id="menu_deroulant">
-                <li><a href="Conditions_d_admission.html">Conditions d'admission</a></li>
-                <li><a href="Organisation.html">Organisation</a></li>
-                <li><a href="Dates_portes_ouvertes.html">Dates portes ouvertes</a></li>
-                <li><a href="Presentation_campus.html">Présentation du Campus</a></li>
-                <li><a href="Differents_cursus_et_debouches.html">Différents cursus et débouchés</a></li>
-                <li><a href="Reconnaissance_prixdelannee.html">Reconnaissance et prix de l'année</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>Bienvenue sur le site de Polytech Nantes</h1>
+    <nav>
+        <div class="menu" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu_deroulant" id="menu_deroulant">
+            <li><a href="Conditions_d_admission.html">Conditions d'admission</a></li>
+            <li><a href="Organisation.html">Organisation</a></li>
+            <li><a href="Dates_portes_ouvertes.html">Dates portes ouvertes</a></li>
+            <li><a href="Presentation_campus.html">Présentation du Campus</a></li>
+            <li><a href="Differents_cursus_et_debouches.html">Différents cursus et débouchés</a></li>
+            <li><a href="Reconnaissance_prixdelannee.html">Reconnaissance et prix de l'année</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main>
+<main>
     <section>
-        <p>
-            Polytech Nantes est une école d’ingénieurs publique, composante de Nantes Université
-            et membre du réseau national Polytech, qui regroupe 15 écoles d’ingénieurs en France.
-        </p>
-
-        <p>
-            L’école forme des ingénieurs du bac à bac+5 dans plusieurs domaines scientifiques et
-            technologiques, avec une forte exigence académique et un lien étroit avec la recherche
-            et le monde professionnel.
-        </p>
-
-        <p>
-            La formation s’organise en deux grandes étapes : un cycle préparatoire intégré (PeiP),
-            puis un cycle ingénieur de trois ans, accessible sans concours après validation du parcours.
-        </p>
-
-        <p>
-            Polytech Nantes propose plusieurs spécialités d’ingénierie, notamment en informatique,
-            électronique, génie civil, matériaux, génie électrique, énergétique et systèmes embarqués.
-        </p>
-
-        <p>
-            Grâce à de nombreux partenariats avec les entreprises et les laboratoires de recherche,
-            les étudiants réalisent des projets concrets, des stages et peuvent partir à l’international
-            au cours de leur cursus.
-        </p>
-
+        <p>Polytech Nantes est une école d’ingénieurs publique...</p>
         <img src="images/POLYTECH-NANTES.jpg" alt="Bâtiment de Polytech Nantes">
     </section>
 
     <section>
-        <p>
-            Polytech Nantes accueille environ 1 500 étudiants et apprentis ingénieurs répartis sur
-            deux campus : le campus de la Chantrerie à Nantes et le campus de Heinlex à Saint-Nazaire.
-        </p>
-
-        <p>
-            L’école affiche un excellent taux d’insertion professionnelle, avec des diplômés qui
-            trouvent majoritairement un emploi d’ingénieur dans les mois suivant l’obtention du diplôme.
-        </p>
-
-        <p>
-            Ce site a pour objectif de vous présenter l’organisation de l’école, les conditions
-            d’admission, les cursus proposés, les débouchés professionnels ainsi que les dates
-            des journées portes ouvertes.
-        </p>
-
+        <p>Polytech Nantes accueille environ 1 500 étudiants...</p>
         <img src="images/campus_polytech.jpg" alt="Campus Polytech Nantes" width="600">
     </section>
 </main>
-</div>
-<footer class="footer">
 
+<footer class="footer">
     <div class="social-links">
         <a href="https://www.instagram.com/polytech_nantes/" target="_blank">Instagram</a>
         <a href="https://www.facebook.com/PolytechNantes/" target="_blank">Facebook</a>
         <a href="https://www.linkedin.com/school/polytechnantes/" target="_blank">LinkedIn</a>
     </div>
 </footer>
-</body>
+
 <script>
 const menu = document.querySelector('.menu');
 const menuDeroulant = document.querySelector('.menu_deroulant');
@@ -98,33 +57,10 @@ const menuDeroulant = document.querySelector('.menu_deroulant');
 let ouvert = false;
 
 menu.addEventListener('click', () => {
-    if(!ouvert) {
-        menuDeroulant.style.left = '0';
-    } else {
-        menuDeroulant.style.left = '-250px';
-    }
+    menuDeroulant.style.left = ouvert ? '-250px' : '0';
     ouvert = !ouvert;
 });
 </script>
 
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
