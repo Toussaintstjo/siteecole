@@ -4,7 +4,7 @@
 
 # 🎓 Site Web — Polytech Nantes
 
-Ce dépôt contient le projet collaboratif visant à créer un **site web complet présentant Polytech Nantes** : organisation, formations, campus, conditions d’admission et événements.
+Ce dépôt contient le projet collaboratif visant à créer un **site web complet présentant Polytech Nantes** : organisation, formations, campus, conditions d’admission et événements. Disponible sur :https://polytech-nantes.netlify.app/
 
 ---
 
