@@ -174,7 +174,7 @@ footer {
 
 .social-links a {
   display: inline-block;
-  margin: 15px auto;
+  margin: 50px auto;
 }
 
 /* Responsive */
@@ -205,5 +205,6 @@ footer {
         padding: 10px 15px;
     }
 }
+
 
 
