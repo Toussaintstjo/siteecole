@@ -12,7 +12,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(128, 0, 128, 0.95);
+    radial-gradient(125% 125% at 50% 10%, #fff 40%, #63e 100%);
     z-index: -100; /* derrière tout le contenu */
 }
 
@@ -205,6 +205,7 @@ footer {
         padding: 10px 15px;
     }
 }
+
 
 
 
