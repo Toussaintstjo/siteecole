@@ -172,6 +172,10 @@ footer {
     font-weight: bold;
 }
 
+.social-links a {
+  display: inline-block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header h1 {
@@ -200,3 +204,4 @@ footer {
         padding: 10px 15px;
     }
 }
+
