@@ -4,56 +4,95 @@
     <meta charset="UTF-8">
     <title>Organisation - Polytech Nantes</title>
     <link rel="stylesheet" href="css/style.css">
-    <div class="background"></div>
 </head>
+
 <body>
-    <header>
-        <h1>Organisation de Polytech Nantes</h1>
-    </header>
-    <header>
-         <nav>
-            <div class="menu" id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="menu_deroulant" id="menu_deroulant">
-                <li><a href="index.html">Accueuil</a></li>
-                <li><a href="Conditions_d_admission.html">Conditions d'admission</a></li>
-                <li><a href="Dates_portes_ouvertes.html">Dates portes ouvertes</a></li>
-                <li><a href="Presentation_campus.html">Présentation du Campus</a></li>
-                <li><a href="Differents_cursus_et_debouches.html">Différents cursus et débouchés</a></li>
-                <li><a href="Reconnaissance_prixdelannee.html">Reconnaissance et prix de l'année</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    <section>
-        <h2>Organisation</h2>
-        <table border="1">
+
+<div class="background"></div>
+
+<header>
+    <h1>Organisation de Polytech Nantes</h1>
+
+    <nav>
+        <div class="menu" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="menu_deroulant" id="menu_deroulant">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Conditions_d_admission.html">Conditions d’admission</a></li>
+            <li><a href="Dates_portes_ouvertes.html">Dates portes ouvertes</a></li>
+            <li><a href="Presentation_campus.html">Présentation du campus</a></li>
+            <li><a href="Differents_cursus_et_debouches.html">Différents cursus et débouchés</a></li>
+            <li><a href="Reconnaissance_prixdelannee.html">Reconnaissance et prix de l’année</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>Répartition des rôles</h2>
+
+    <table>
+        <thead>
             <tr>
                 <th>Rôle</th>
                 <th>Nom</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>HTML</td>
-                <td>Lino et Gwendal</td>
+                <td>Lino, Gwendal</td>
             </tr>
             <tr>
                 <td>CSS</td>
-                <td>Toussaint et Gwendal</td>
+                <td>Toussaint, Gwendal</td>
             </tr>
             <tr>
-                <td>JAVA SCRIPT</td>
+                <td>JavaScript</td>
                 <td>Toussaint</td>
             </tr>
             <tr>
-                <td>Oraganisation du site</td>
+                <td>Organisation du site</td>
                 <td>Maël</td>
             </tr>
-        </table>
-        </section>
-    </main>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Présentation du projet</h2>
+
+    <p>
+        Ce projet collaboratif vise à créer un site web complet présentant
+        <strong>Polytech Nantes</strong> : organisation, formations, campus,
+        conditions d’admission et événements.
+    </p>
+
+    <p>
+        Site en ligne :
+        <a href="https://polytech-nantes.netlify.app/" target="_blank">
+            https://polytech-nantes.netlify.app/
+        </a>
+    </p>
+</section>
+
+<section>
+    <h2>Dépôt GitHub</h2>
+
+    <p>
+        <a href="https://github.com/Toussaintstjo/siteecole" target="_blank">
+            https://github.com/Toussaintstjo/siteecole
+        </a>
+    </p>
+</section>
+
+</main>
+
 <footer class="footer">
     <div class="social-links">
         <a href="https://www.instagram.com/polytech_nantes/" target="_blank">Instagram</a>
@@ -61,8 +100,7 @@
         <a href="https://www.linkedin.com/school/polytechnantes/" target="_blank">LinkedIn</a>
     </div>
 </footer>
-</body>
-    
+
 <script>
 const menu = document.querySelector('.menu');
 const menuDeroulant = document.querySelector('.menu_deroulant');
@@ -70,31 +108,10 @@ const menuDeroulant = document.querySelector('.menu_deroulant');
 let ouvert = false;
 
 menu.addEventListener('click', () => {
-    if(!ouvert) {
-        menuDeroulant.style.left = '0';
-    } else {
-        menuDeroulant.style.left = '-250px';
-    }
+    menuDeroulant.style.left = ouvert ? '-250px' : '0';
     ouvert = !ouvert;
 });
 </script>
 
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
