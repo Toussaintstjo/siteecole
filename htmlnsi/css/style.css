@@ -41,10 +41,21 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    font-size: 15px
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #02b5fc;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fc;
 }
         
 .menu {
@@ -215,6 +226,7 @@ footer {
         padding: 10px 15px;
     }
 }
+
 
 
 
