@@ -51,7 +51,6 @@ th, td {
 th {
     background-color: #02b5fc;
     color: white;
-    text-align: left;
 }
 
 tr:nth-child(even) {
@@ -226,6 +225,7 @@ footer {
         padding: 10px 15px;
     }
 }
+
 
 
 
