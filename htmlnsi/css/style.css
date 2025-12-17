@@ -52,10 +52,6 @@ th {
     background-color: #02b5fc;
     color: white;
 }
-
-tr:nth-child(even) {
-    background-color: #f7f9fc;
-}
         
 .menu {
     width: 30px;
@@ -225,6 +221,7 @@ footer {
         padding: 10px 15px;
     }
 }
+
 
 
 
