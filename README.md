@@ -12,10 +12,10 @@ Ce dépôt contient le projet collaboratif visant à créer un **site web comple
 
 | Membre        | Rôle                  | Tâches                |
 | ------------- | --------------------- | --------------------- |
-| **Toussaint** | Développeur principal | HTML, CSS, JavaScript |
+| **Toussaint** | Développeur           | HTML, CSS, JavaScript |
 | **Maël**      | Développeur           | HTML, CSS             |
-| **Lino**      | Intégration           | HTML                  |
-| **Gwendal**   | Intégration           | HTML                  |
+| **Lino**      | Développeur           | HTML                  |
+| **Gwendal**   | Développeur           | HTML                  |
 
 ---
 
